@@ -1,0 +1,52 @@
+for running the application on different host .. you need to use the following command
+python2 filename.py
+
+
+CRUD OPERATIONS :
+
+fastapi doesn't support SQL relations . but you can still use it using SQL-Alchemy
+
+create a new directory - blog
+
+1) __init__.py
+2) requirements.txt
+(fastapi  uvicorn)   pip3 install -r requirements.txt
+
+We need to connect our fastapi with SQLlite
+create a new file called schemas.py inside the blog directory
+
+move the class Blog from main.py to schemas.py
+
+inside main.py
+
+from . import schemas
+
+
+
+
+DATABASE CONNECTION:
+
+1)We need to craete the engine
+
+craete new file database.py
+create blog.db
+
+2)Create a mapping
+3)Create Session
+
+
+download tableplus
+craete a new file .. locate blog.db
+
+
+go to database.py
+
+
+
+
+//GETTING BLOGS FROM DATABASE
+
+go to main.py
+
+
+// EXCEPTION AND STATUS CODE
